@@ -239,7 +239,7 @@ print(random_sample)  # Output: Varies with 5 distinct letters
 **Example Projects:**
 
 1. **Simple Coin Game:**
-   - Create a varible to get computer_choice `random.choice(coin)`.
+   - Create a variable to get computer_choice `random.choice(coin)`.
    - Allow the user to guess whether H or T and compare it to the result.
    - Print messages based on whether the guess is correct or not.
   
@@ -257,7 +257,7 @@ else:
 ```
     
 2. **Simple Dice Rolling Game:**
-   - Create a varible to get computer_choice `random.randint(1, 6)`.
+   - Create a variable to get computer_choice `random.randint(1, 6)`.
    - Allow the user to guess a sum and compare it to the actual roll.
    - Print messages based on whether the guess is correct or not.
 
