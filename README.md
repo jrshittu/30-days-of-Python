@@ -3,7 +3,11 @@
 **Beginner Projects:**
 * Coin Game
 * Number Guessing Game
-* Password Generator
+* Deck of Cards
+* Password Manager
+* The Ceasar Cipher
+* Nought and Crosses
+* Username Generator with Faker
 * To-Do List App
 * Rock, Paper, Scissors Game
 * Mad Libs Generator
