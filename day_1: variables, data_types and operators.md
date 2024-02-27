@@ -238,7 +238,25 @@ print(random_sample)  # Output: Varies with 5 distinct letters
 
 **Example Projects:**
 
-1. **Simple Dice Rolling Game:**
+1. **Simple Coin Game:**
+   - Create a varible to get computer_choice `random.choice(coin)`.
+   - Allow the user to guess whether H or T and compare it to the result.
+   - Print messages based on whether the guess is correct or not.
+  
+```python
+from random import choice
+
+coin = ["Head", "Tail"]
+player_choice = input("Enter your choice (Head/Tail): ").capitalize()
+
+if player_choice == choice(coin):
+    print("You guessed it right!")
+else:
+    print("Sorry, you lost!")
+    print("The coin landed on", choice(coin))
+```
+    
+2. **Simple Dice Rolling Game:**
    - Create a varible to get computer_choice `random.randint(1, 6)`.
    - Allow the user to guess a sum and compare it to the actual roll.
    - Print messages based on whether the guess is correct or not.
@@ -256,29 +274,3 @@ else:
  print("Sorry, computer choice was", computer_choice)
 ```
 __Exercise__:Improve the program by adding error handling
-
-2. **Random Password Generator:**
-   - Define a list of characters (lowercase, uppercase, digits, symbols).
-   - Use `random.choice()` to select characters from the list.
-   - Generate a password of desired length by iterating and choosing characters.
-   - Include options to specify password length and character types.
-
-3. **Card Deck Simulation:**
-   - Create a list representing a deck of cards (suits and ranks).
-   - Use `random.shuffle()` to shuffle the deck.
-   - Simulate drawing cards using `random.choice()` and removing them from the deck.
-   - Optionally, deal cards to players and perform game logic (e.g., blackjack).
-
-4. **Random Walk Simulation:**
-   - Start a particle at a specific position (e.g., origin).
-   - In each step, randomly choose a direction (up, down, left, right) using `random.choice()`.
-   - Update the particle's position based on the chosen direction.
-   - Plot or visualize the random walk path over time.
-
-5. **Monte Carlo Simulation:**
-   - Define a mathematical model or problem (e.g., estimating probability).
-   - Perform random experiments (e.g., simulating coin flips or dice rolls) using randomization functions.
-   - Calculate statistics (e.g., average, percentage) based on simulation results.
-   - Use the results to approximate the solution to the original problem.
-
-Remember that while these examples provide a foundation, you can adapt and combine randomization techniques to create various other creative and educational projects in Python.
