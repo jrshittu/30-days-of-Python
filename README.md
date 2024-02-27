@@ -1,6 +1,7 @@
 ## Table of Contents
 
 **Beginner Projects:**
+* Coin Game
 * Number Guessing Game
 * Password Generator
 * To-Do List App
