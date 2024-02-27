@@ -16,6 +16,26 @@ name = "Alex"
 print(name)
 ```
 
+- **Hello Python**
+  Create a script to print hello 🐍.
+  
+  ```python
+  pi = "🐍"
+  print("Hello", pi)
+  ```
+
+- **Short Intro**
+  Create a program to introduce someone.
+
+  ```python
+  name = "Albert Einstein"
+  age = 67
+  profession = "Scientist"
+
+  print("Hello!", name, "is", age, "years old and a", profession)
+  ```
+
+
 ## Data Types
 There are five main data types namely;
 - String (text) e.g "Alex", "Sofia"
@@ -160,26 +180,6 @@ Here are the list of operators in python;
 15 % 7
 ```
 `>>> 1`
-
-**Projects**
-- **Hello Python**
-  Create a script to print hello 🐍.
-  
-  ```python
-  pi = "🐍"
-  print("Hello", pi)
-  ```
-
-- **Short Intro**
-  Create a program to introduce someone.
-
-  ```python
-  name = "Albert Einstein"
-  age = 67
-  profession = "Scientist"
-
-  print("Hello!", name, "is", age, "years old and a", profession)
-  ```
 
 ## Randomisation
 **Importing the `random` Module:**
