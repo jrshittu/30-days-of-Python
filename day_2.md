@@ -119,13 +119,17 @@ name = my_dict["name"]  # name will be "Alice"
 
   **Exercises:**
   1. Print all names, email addresses and the key-value pairs in a dict.
-  2. Check if a user exist in a dict
+  2. Check if a user exist in a dict.
+  3. Update the info in the dict.
  
   **Solutions:**
   1. Print all names, email addresses and the key-value pairs in a dict.
  ![carbon](https://github.com/jrshittu/30-days-of-Python/assets/110542235/d8be477d-706e-42b8-afd4-349bf23423a8)
   2. Check if a user exist in a dict
   ![carbon (1)](https://github.com/jrshittu/30-days-of-Python/assets/110542235/3eaa420e-fcec-4a71-b8d2-72bb922456d3)
+  3. Update the info in the dict.
+  
+
 
 
  

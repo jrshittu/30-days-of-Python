@@ -3,5 +3,9 @@ user_profiles = {
     "Troy": {"name": "Troy Jones", "email": "troy@example.com", "age": 25},
 }
 
-print("Is 'Troy' in the dict?", "Troy" in user_profiles)
-print("Is 'Alex' in the dict?", "Alex" in user_profiles)
+new_profile = {
+    "John": {"name": "John Dalton", "email": "john@example.com", "age": 26}
+}
+
+user_profiles.update(new_profile)
+print(user_profiles)
