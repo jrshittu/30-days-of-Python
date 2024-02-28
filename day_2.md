@@ -119,6 +119,7 @@ name = my_dict["name"]  # name will be "Alice"
 
   **Exercises:**
   1. Print all names, email addresses and the key-value pairs in a dict.
+  2. Check if a user exist in a dict
  
   **Solutions:**
   1. Print all names, email addresses and the key-value pairs in a dict.

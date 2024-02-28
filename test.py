@@ -3,14 +3,5 @@ user_profiles = {
     "Troy": {"name": "Troy Jones", "email": "troy@example.com", "age": 25},
 }
 
-print("Username: ")
-for names in user_profiles.keys():
-    print(names)
-
-print("\nEmail Address: ")
-for email in user_profiles.values():
-    print(email["email"])
-
-print("User_details: ")
-for key, value in user_profiles.items():
-    print(key,":", value)
+print("Is 'Troy' in the dict?", "Troy" in user_profiles)
+print("Is 'Alex' in the dict?", "Alex" in user_profiles)
