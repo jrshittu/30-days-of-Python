@@ -130,9 +130,6 @@ name = my_dict["name"]  # name will be "Alice"
   3. Update the info in the dict.
   ![carbon (2)](https://github.com/jrshittu/30-days-of-Python/assets/110542235/491cd354-2d37-4cfa-9e95-dde159e2ca54)
 
-  
-
-
 
  
   ## Projects
