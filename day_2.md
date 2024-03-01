@@ -140,3 +140,5 @@ name = my_dict["name"]  # name will be "Alice"
 
   ## Solutions
   **Simon Says**
+  ![simon-says](https://github.com/jrshittu/30-days-of-Python/assets/110542235/baa1620e-08a8-416c-9653-31ded13cd359)
+
