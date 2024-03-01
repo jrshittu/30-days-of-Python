@@ -1,11 +1,9 @@
-user_profiles = {
-    "Albert": {"name": "Albert Smith", "email": "albert@example.com", "age": 20},
-    "Troy": {"name": "Troy Jones", "email": "troy@example.com", "age": 25},
-}
+simon_says = ["Hands on head", "Hands on ears",
+              "Right hand up", "Left hand up",
+              "Hands on shoulders"]
 
-new_profile = {
-    "John": {"name": "John Dalton", "email": "john@example.com", "age": 26}
-}
+print("Pick a number between 0 and 4")
+index = int(input())
+instruction = simon_says[index]
 
-user_profiles.update(new_profile)
-print(user_profiles)
+print(f"Simon says...{instruction}")

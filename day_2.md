@@ -129,16 +129,14 @@ name = my_dict["name"]  # name will be "Alice"
   ![carbon (1)](https://github.com/jrshittu/30-days-of-Python/assets/110542235/3eaa420e-fcec-4a71-b8d2-72bb922456d3)
   3. Update the info in the dict.
   ![carbon (2)](https://github.com/jrshittu/30-days-of-Python/assets/110542235/491cd354-2d37-4cfa-9e95-dde159e2ca54)
-<<<<<<< HEAD
-  
-=======
 
 
- 
->>>>>>> 15d8dfc4cd3f839eda60d4f63844166a88ee2d06
   ## Projects
+* Simon Says: To create this program, define a list called simon_says that contains five different instructions for the user to follow. The program should then prompt the user to pick a number between 0 and 4, and store the user's input in a variable called index. The program should use the value of index to select an instruction from the simon_says list, and then print the instruction to the screen using the print function. The program should display a message that says "Simon says..." followed by the selected instruction.
 * Deck of Cards
-
 * Password Manager
 * The Ceasar Cipher
 * Nought and Crosses
+
+  ## Solutions
+  **Simon Says**
