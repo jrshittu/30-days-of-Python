@@ -136,9 +136,6 @@ name = my_dict["name"]  # name will be "Alice"
 * Sandwich Order: Create a program to calculate a sandwich order and print the total cost.
 * Deck of Cards: Populate a list with a deck of cards.
 
-* Password Manager
-* The Ceasar Cipher
-* Nought and Crosses
 
   ## Solutions
   **Simon Says**
@@ -147,9 +144,3 @@ name = my_dict["name"]  # name will be "Alice"
   **Sandwich Order**
   
   ![sandwich](https://github.com/jrshittu/30-days-of-Python/assets/110542235/1184c7f1-2e53-4baf-9452-afc4cd69005b)
-
-  **Deck of Cards**
-  
-
-  
-
