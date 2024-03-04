@@ -133,7 +133,8 @@ name = my_dict["name"]  # name will be "Alice"
 
   ## Projects
 * Simon Says: To create this program, define a list called simon_says that contains five different instructions for the user to follow. The program should then prompt the user to pick a number between 0 and 4, and store the user's input in a variable called index. The program should use the value of index to select an instruction from the simon_says list, and then print the instruction to the screen using the print function. The program should display a message that says "Simon says..." followed by the selected instruction.
-* Deck of Cards
+* Sandwich Order: Create a program to calculate a sandwich order and print the total cost.
+
 * Password Manager
 * The Ceasar Cipher
 * Nought and Crosses
@@ -141,4 +142,7 @@ name = my_dict["name"]  # name will be "Alice"
   ## Solutions
   **Simon Says**
   ![simon-says](https://github.com/jrshittu/30-days-of-Python/assets/110542235/baa1620e-08a8-416c-9653-31ded13cd359)
+
+  **Sandwich Order**
+  
 
