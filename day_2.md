@@ -145,6 +145,7 @@ name = my_dict["name"]  # name will be "Alice"
   ![simon-says](https://github.com/jrshittu/30-days-of-Python/assets/110542235/baa1620e-08a8-416c-9653-31ded13cd359)
 
   **Sandwich Order**
+  
   ![sandwich](https://github.com/jrshittu/30-days-of-Python/assets/110542235/1184c7f1-2e53-4baf-9452-afc4cd69005b)
 
   **Deck of Cards**
