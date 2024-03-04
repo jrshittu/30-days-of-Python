@@ -3,8 +3,8 @@
 **Beginner Projects:**
 * Coin Game
 * Number Guessing Game
-* Deck of Cards
-* Password Manager
+* Simon Says
+* Sandwich Order
 * The Ceasar Cipher
 * Nought and Crosses
 * Username Generator with Faker
