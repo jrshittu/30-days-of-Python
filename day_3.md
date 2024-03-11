@@ -217,11 +217,50 @@ for x in range(5):
 `range()` is a built-in function just like `input()`. 
 It generates a sequence of numbers.
 
+```python
+for x in range(start, end, step):
+    print(x)
+```
 
+When you call the range function, you can pass it up to three values: 
+- The start number
+- The end number
+- The step
 
+If you only pass one value, then the function will use it as the last number and the sequence will start at 0. 
 
+```python
+for x in range(5):
+    print(x)
+```
 
+When you call the range function, it will generate a sequence of numbers:
+0, 1, 2, 3, 4 
 
+**Note:** The end number is not included in the generated sequence, because it is used as the stop point. 
+
+x is the variable that is used to iterate through this sequence.  
+0, 1, 2, 3, 4 
+
+**Project:**
+- Times table Generator
+```python
+times_table = 5
+answer = 0
+print(f"Here is the {times_table} times table")
+for x in range(1,11):
+    answer = x * times_table
+    print(f"{x} times {times_table} is {answer}")
+```
+**Questions:**
+1. Take a look at the code above. Read it carefully and try to make a prediction about the output of this program when it is executed.
+2. In the first iteration, what is the value of x?
+3. Line 4 has the code range(1,11).
+4. Change the values to range(2,22).
+5. What is the second line that is output for display?
+6. What is the final line that is output for display?
+7. Change the values passed in range so that the times table generator will output the 5 times table from 1 to 12. 
+8. Introduce an input() to the program to allow the user to enter the times table that they wish to create. 
 
 
 **☕ Enjoyed this article? Support my work with a coffee: [https://www.buymeacoffee.com/cqvuesleq](https://www.buymeacoffee.com/cqvuesleq)**
