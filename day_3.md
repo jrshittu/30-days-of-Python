@@ -127,7 +127,81 @@ print("Have a good day! Bye!")
 ## Iterations🔂
 Iteration statements, such as the `for` and `while` loops, allow you to execute a block of code repeatedly until a certain condition is met. For example, you can use a `for` loop to iterate over a list of items and perform some operation on each item, or use a `while` loop to repeatedly ask the user for input until they enter a valid value.
 
+
+**`while` Loop**
+
+You will need a while statement:
+When your program needs to repeat actions, while a condition is satisfied.
+
+```python
+# Get the user's input and store it in the variable "name"
+name = input("What’s your name?")
+
+# Use a while loop to repeatedly ask the user for their name until they enter the correct name
+while name != "Hedy":
+  # Print a message providing feedback to the user
+  print("Try again Hedy")
+
+  # Get the user's input again and update the value of "name"
+  name = input()
+
+# Print a personalized greeting to the user
+print(f"Hello, {name}")
+```
+
+**Questions:**
+
+1. What will happen when you run the program?
+2. How can you improve the program?
+
+
+**Project:**
+
+**Parson's Puzzle:** A Parson's Puzzle is designed so that you can move the code around until it provides a logical solution to the problem given.  
+
+Your job is to rearrange the lines of code so that the program will:
+
+●	Ask for a word to guess
+
+●	Check if the word is not equal to Raspberry
+
+●	Continue to check if the word is not equal to Raspberry
+
+●	When the word is equal to Raspberry, it should display: 
+“Well done, the word was Raspberry!”
+
+```python
+print(f"Well done, the word was {word}!")
+print("Try again...")
+print("Guess the word")
+word = input() 
+word = input()
+while word != "Raspberry":
+```
+
 **`for` Loop**
+```python
+for x in range(5):
+    print(x)
+```
+*What will the output be when this code is executed?*
+
+A for loop is another tool to control the flow of execution in your programs. 
+
+A while loop can do everything that a for loop can do. 
+However, it is more convenient to use a for loop for iterating through sequences. 
+
+When you use a for loop you are saying:
+“For every element in this sequence, do this.”
+
+For loops can be used for many types of sequence, for example:
+- Letters in a word
+
+- Items in a list
+
+- Numbers in a range
+
+
 
 
 
