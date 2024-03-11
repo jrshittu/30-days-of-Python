@@ -120,7 +120,7 @@ if likes_blue == "Yes":
   print("I like blue too")
 print("Have a good day! Bye!")
 ```
-- **Questions:**
+**Questions:**
 1. What will happen when you run the code?
 2. How can you improve the program?
 
