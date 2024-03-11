@@ -194,12 +194,28 @@ However, it is more convenient to use a for loop for iterating through sequences
 When you use a for loop you are saying:
 “For every element in this sequence, do this.”
 
+```python
+for this sequence:
+    do this
+```
+
 For loops can be used for many types of sequence, for example:
 - Letters in a word
 
 - Items in a list
 
 - Numbers in a range
+
+**For Example:**
+
+```python
+for x in range(5):
+    print(x)
+```
+`range()` is the sequence that you are going to iterate through.
+
+`range()` is a built-in function just like `input()`. 
+It generates a sequence of numbers.
 
 
 
