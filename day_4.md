@@ -1,5 +1,6 @@
-# Day 5 - String Manipulation and Formatting
-![Default_A_young_smart_genius_sitting_with_pc_on_the_desk_codin_1](https://github.com/jrshittu/30-days-of-Python/assets/110542235/23cc8c2a-26c2-4fa7-acb2-f980dab5e09c)
+# Day 5 - Strings Manipulation and Formatting
+![Default_A_young_smart_genius_sitting_with_pc_on_the_desk_codin_0](https://github.com/jrshittu/30-days-of-Python/assets/110542235/a7b86122-4390-43d9-90ae-a890cdba3a62)
+
 
 ## Introduction
 Strings in Python are a sequence of characters, enclosed in either single quotes (`'...'`) or double quotes (`"..."`). They can contain letters, numbers, special characters, and spaces. Strings are immutable, meaning that once you create a string, you cannot change its content. Here's an example of a string in Python:
