@@ -57,7 +57,7 @@ print(text.endswith("World!")) # True
 ```
 In this example, we're using various string methods to manipulate the `text` string. The `upper()` and `lower()` methods are used to change the case of the string, while the `strip()` method is used to remove leading and trailing whitespace. The `replace()` method is used to replace a substring, while the `split()` method is used to split the string into a list of substrings. The `find()`, `startswith()`, and `endswith()` methods are used to search for substrings within the string.
 
-### Exercises
+## Exercises
 Now let's explore how to slice, dice, search, and replace text with ease using strip(), split(), join(), lower(), upper(), replace(), and find().
 
 ## Exercise One: Palindrome Checker <a name="pr1"></a>
