@@ -1,4 +1,4 @@
-# Day 5 - Strings Manipulation and Formatting
+# Day 4 - Strings Manipulation and Formatting
 ![Default_A_young_smart_genius_sitting_with_pc_on_the_desk_codin_0 (3)](https://github.com/jrshittu/30-days-of-Python/assets/110542235/b2b8bb16-6ccd-4502-bcfe-7bd48a3d3c6e)
 
 
