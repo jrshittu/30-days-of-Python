@@ -1,4 +1,4 @@
-# Day 6: Object Oriented Programing
+# Day 6: Object Oriented Programming
 
 ## Table of Contents
 [Introduction](#intro)
