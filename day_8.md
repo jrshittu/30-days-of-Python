@@ -144,7 +144,51 @@ A CSV file can be created in a text editor by changing the extension of the file
 
 You can also create CSV files in spreadsheet software by exporting them as a .csv file. 
 
+When you open a CSV file in spreadsheet software, the commas are used as a guide to display the data neatly in rows and columns. 
 
+When a CSV file is opened in spreadsheet software, it is displayed in tabular format. 
+
+A CSV file is still a text file. Each row is stored as string. 
+
+Modern spreadsheet software will typically recognise a number and store it as that data type.
+
+Python will not do this automatically. Any data is always read as string and will need to be casted before it is used as any other data type. 
+
+### Reading a CSV File
+To read a CSV file, we first need to open it using the `open()` function with the file name and mode 'r' for reading. Then, we create a `csv.reader()` object by passing the file object to it. The `csv.reader()` object reads the CSV file line by line and returns an iterator that yields a list of values for each row.
+
+Here's an example of reading a CSV file:
+```python
+import csv
+
+with open('example.csv', 'r') as file:
+    reader = csv.reader(file)
+    for row in reader:
+        print(row)
+```
+In this example, we open the file 'example.csv' in read mode and create a `csv.reader()` object. Then, we loop through the rows in the CSV file using a for loop and print each row as a list.
+
+By default, the `csv.reader()` object assumes that the delimiter is a comma. However, we can specify a different delimiter using the `delimiter` parameter. For example, to read a TSV (Tab Separated Values) file, we can set the delimiter to '\t':
+```python
+import csv
+
+with open('example.tsv', 'r') as file:
+    reader = csv.reader(file, delimiter='\t')
+    for row in reader:
+        print(row)
+```
+In addition to reading the data as lists, we can also read it into a dictionary using the `csv.DictReader()` class. This is useful when we want to access the values in each row using the column names as keys. To use `csv.DictReader()`, we need to pass the file object and a list of column names as arguments. The first row of the CSV file should contain the column names.
+
+Here's an example of reading a CSV file into a dictionary:
+```python
+import csv
+
+with open('example.csv', 'r') as file:
+    reader = csv.DictReader(file, fieldnames=['Name', 'Age', 'Gender'])
+    for row in reader:
+        print(row)
+```
+In this example, we create a `csv.DictReader()` object and pass it the file object and a list of column names. Then, we loop through the rows in the CSV file and print each row as a dictionary.
 
 
 ## Conclusion
