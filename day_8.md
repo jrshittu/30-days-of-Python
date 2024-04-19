@@ -5,6 +5,10 @@
 
 [Handling Files](#handle)
 
+[CSV Files](#csv)
+
+[Conclusion](#conc)
+
 
 ## Introduction
 <a name="intro"></a>In Python, files are used to store data permanently on disk. File handling involves reading, writing, and manipulating data stored in files. In this article, we will explore how to perform file handling and I/O operations in Python.
@@ -133,7 +137,7 @@ for filename in os.listdir('files'):
 ```
 Step 4: Run the script and verify that the files have been moved to their respective directories.
 
-## CSV Files
+## CSV Files <a name="csv"></a>
 CSV stands for comma-separated values. 
 
 CSV files can be read by a range of different spreadsheet software packages as well as Python files. 
@@ -190,6 +194,93 @@ with open('example.csv', 'r') as file:
 ```
 In this example, we create a `csv.DictReader()` object and pass it the file object and a list of column names. Then, we loop through the rows in the CSV file and print each row as a dictionary.
 
+### Write to CSV File
+Writing to a CSV file is very similar to writing to a standard text file. 
+
+The key thing is to remember how a CSV file is structured. 
+
+The next thing to remember is that a CSV file is a text file. You can only write data to it that has the string data type. 
+
+Here is a program that is attempting to write an integer to a CSV file. 
+
+```python
+file = open("numbers.csv", "w")
+numbers = 3
+file.write(numbers)
+file.close()
+```
+
+When executed, this error message will occur. 
+
+```
+TypeError: write() argument must be str, not int
+```
+
+Any data written to a CSV file must be sent in the format that it requires:
+
+- Data must have the string data type
+- Each item should be separated by a comma
+- Each new row or record should be indicated by a line space \n which stands for newline
+
+Writing a List of Numbers to a CSV File in Python
+--------------------------------------------------
+
+In this example, we'll write a list of numbers to a CSV file using Python. Here are the steps:
+
+### Step 1: Create a List of Numbers
+
+First, let's create a list of numbers that we want to write to the CSV file:
+```css
+numbers = [3, 4, 5]
+```
+### Step 2: Convert the Numbers to Strings
+
+Next, we need to convert the numbers to strings so that we can write them to the CSV file. We'll use a for loop to iterate through the list of numbers and append each string representation to a new list:
+```css
+str_numbers = []
+for number in numbers:
+    str_numbers.append(str(number))
+```
+### Step 3: Join the Strings into a Single String
+
+Now that we have a list of string representations of the numbers, we need to join them into a single string separated by commas. We can use the `",".join(str_numbers)` method to do this:
+```makefile
+data = ",".join(str_numbers)
+```
+### Step 4: Open the File in Write Mode
+
+Next, we need to open the CSV file in write mode. We'll use the `open()` function to do this:
+```python
+file = open("numbers.csv", "w")
+```
+### Step 5: Write the Data to the File
+
+Now we can write the data to the CSV file using the `write()` method:
+```scss
+file.write(data)
+```
+### Step 6: Close the File
+
+Finally, we need to close the file using the `close()` method:
+```python
+file.close()
+```
+And that's it! When we run this code, a new CSV file named "numbers.csv" will be created in the current directory, containing the list of numbers separated by commas.
+
+Here's the complete code:
+```css
+numbers = [3, 4, 5]
+
+str_numbers = []
+for number in numbers:
+    str_numbers.append(str(number))
+
+data = ",".join(str_numbers)
+
+file = open("numbers.csv", "w")
+file.write(data)
+file.close()
+```
 
 ## Conclusion
 
